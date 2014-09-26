@@ -1,0 +1,18 @@
+{
+  "name": "star-fab",
+  "version": "1.0.0",
+   "authors": [
+    "Ray Herndon <rherndon@starscramento.org>"
+  ],
+  "description": "An extention of the polymer fab with css keys for starsacramento subdomains",
+  "main": "star-fab.html",
+  "license": "MIT",
+  "ignore": [
+    "**/*.md",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/platform#^0.4.0",
+    "paper-fab": "Polymer/paper-fab#^0.4.0"
+  }
+}
