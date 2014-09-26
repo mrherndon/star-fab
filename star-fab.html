@@ -1,0 +1,42 @@
+<!--
+`<-fab>` is a floating action button with an icon. It comes in three sizes:
+regular size, a smaller size by applying the class `mini` and the smallest size by applying the class 'micro'.
+
+Example:
+
+    <star-fab icon="favorite"></paper-fab>
+    <star-fab class="mini"></paper-fab>
+-->
+
+<link href="../polymer/polymer.html" rel="import">
+<link href="../paper-fab/paper-fab.html" rel="import">
+
+<polymer-element name="star-fab" extends="paper-fab">
+
+  <template>
+
+    <link href="star-fab.css" rel="stylesheet">
+
+    <shadow></shadow>
+
+  </template>
+
+  <script>
+    Polymer('star-fab', {
+
+      publish: {
+
+        /**
+         * See [`<paper-button>`](../paper-button).
+         *
+         * @attribute raisedButton
+         * @type boolean
+         * @default true
+         */
+        raisedButton: {value: true, reflect: true}
+
+      }
+
+    });
+  </script>
+</polymer-element>
