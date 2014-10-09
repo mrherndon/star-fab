@@ -16,5 +16,6 @@
 }
 
 :host(.micro) /deep/ #icon {
-  margin: 0;
+    margin-top: -9px;
+    margin-left: 1px;
 }
